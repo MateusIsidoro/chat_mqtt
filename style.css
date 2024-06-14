@@ -69,3 +69,17 @@ body::-webkit-scrollbar {
     border: 1px solid orange;
     box-shadow: 2px bisque;
   }
+  #resposta::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  #resposta::-webkit-scrollbar-track {
+    background: rgb(81, 76, 67);
+  }
+  
+  #resposta::-webkit-scrollbar-thumb {
+    background-color: rgb(12, 12, 14);
+    border-radius: 20px;
+    border: 1px solid orange;
+    box-shadow: 2px bisque;
+  }
