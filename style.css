@@ -1,0 +1,57 @@
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    background-image: url(Gragas_4.png);
+    overflow-x: hidden;
+
+}
+#resposta{
+    width: 1000px;
+    height: 800px;
+    overflow-y: scroll;
+    background-color: rgba(229, 192, 111, 0.559);
+    backdrop-filter: blur(15px);
+    border-radius: 15px;
+}
+.apelido{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    justify-items: center;
+
+}
+p{
+    color: white;
+}
+.enviar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    justify-items: center;
+
+}
+input{
+    height: 15px;
+}
+button{
+    border: none ;
+    border-radius: 8px;
+    background-color: #842593;
+    color: black;
+    margin: 5px;
+}
+input{
+    margin: 5px;
+    border-radius: 8px;
+    border: solid 1px;
+}
