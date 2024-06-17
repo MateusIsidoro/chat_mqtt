@@ -1,7 +1,12 @@
-
         topico= "Chat/PizzaDeBrocolis"
-        client = new Paho.MQTT.Client("broker.hivemq.com", Number(8000),"")
-        client.connect( {onSuccess:Conectou} )
+        client = new Paho.MQTT.Client("ldb162bd.ala.us-east-1.emqxsl.com", Number(8084),"Usuario2000",)
+        client.connect( {
+            useSSL: true, 
+            userName : "usuario2000",
+            password : "12345",
+            onSuccess:Conectou
+        } )
+
     
         function Conectou() {
             client.subscribe(topico)
